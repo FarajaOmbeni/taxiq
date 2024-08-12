@@ -1,0 +1,1781 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "etims_multiple_devices",
+            "patterns": [
+                "Can I use the same electronic device to install the eTIMS software for different companies?",
+                "Is it possible to use one device for multiple eTIMS installations?",
+                "Can I install eTIMS for multiple businesses on one device?"
+            ],
+            "responses": [
+                "No.\nThe eTIMS client software can only be installed on one device per taxpayer, for those selling goods.\nHowever, for taxpayers supplying services only, the online portal is accessible on any device since it is a web-based solution."
+            ]
+        },
+        {
+            "tag": "etims_integration",
+            "patterns": [
+                "Is it possible to integrate my billing system with eTIMS?",
+                "Can I connect my existing billing system to eTIMS?",
+                "How to integrate billing system with eTIMS?"
+            ],
+            "responses": [
+                "Yes.\nIt is possible through a system to system integration. This integration is possible via the Virtual Sales Control Unit (VSCU) or Online Sales Control Unit (OSCU).\nKRA has appointed 3rd party integrators to facilitate the integration process for taxpayers.\nBelow is the list of approved 3rd party integrators:\n1. Advatech Office Supplies LTD (+254728333111)\n2. Stanbest Group (EA) Limited (+254715713475/ 86/88/ 93/ 97)\n3. Namiri Technology Limited (+254112685368)\n4. Interswitch East Africa (K) Limited (+254703053200)\n5. Deities Technologies Limited (+254701051689)"
+            ]
+        },
+        {
+            "tag": "etims_third_party_integrator",
+            "patterns": [
+                "How can one be certified as an eTIMS third-party integrator?",
+                "Process to become eTIMS third-party integrator",
+                "Requirements for eTIMS third-party integrator certification"
+            ],
+            "responses": [
+                "Information on how a person can be certified as a 3rd party integrator or as a self-integrator is available on the KRA website under the eTIMS menu."
+            ]
+        },
+        {
+            "tag": "etims_reinstallation",
+            "patterns": [
+                "Is it possible to re-install the eTIMS client software from one device to another?",
+                "Can I move eTIMS software to a different device?",
+                "Process for reinstalling eTIMS on new device"
+            ],
+            "responses": [
+                "Yes.\ni. It is possible. However, you will be required to visit the nearest KRA office for assistance. The following will be required:\nii. In case the device was stolen, provide the Occurrence Book (OB) report from a police station confirming theft of the device.\niii. In case the device malfunctioned, provide a job card from a qualified technician confirming the malfunction.\niv. In any other case such as software upgrade or change of device, provide relevant supporting documents."
+            ]
+        },
+        {
+            "tag": "etims_internet_requirement",
+            "patterns": [
+                "Does one require internet connectivity to invoice through eTIMS?",
+                "Can I use eTIMS without internet?",
+                "Internet requirements for eTIMS"
+            ],
+            "responses": [
+                "-For the online solutions, i.e. online portal and Online Sales Control Unit (OSCU), a stable internet connection is required to generate invoices.\n-For the other solutions i.e. eTIMS Client and VSCU, in case of internet downtime, the solutions will allow you to continue generating tax invoices.  However, once your internet connection is restored and is stable, the generated invoices will be transmitted to KRA."
+            ]
+        },
+        {
+            "tag": "etims_invoice_verification",
+            "patterns": [
+                "How can one verify whether an electronic tax invoice is valid?",
+                "Verifying eTIMS invoice validity",
+                "Checking if an eTIMS invoice is genuine"
+            ],
+            "responses": [
+                "1. Scan the QR code.\n2. Input the invoice number on the `Invoice number checker` menu on the iTax portal"
+            ]
+        },
+        {
+            "tag": "etims_representative",
+            "patterns": [
+                "Can I appoint a representative to onboard me on eTIMS?",
+                "Using a representative for eTIMS onboarding",
+                "Appointing someone to handle eTIMS registration"
+            ],
+            "responses": [
+                "Yes.\nYou can appoint a suitable representative to sign up and install the eTIMS solution on your behalf.\n The following is required:\n\ti. An introductory letter, signed by at least one of the directors or partner or business owner clearly indicating who has been appointed as the tax representative and their role in the business. Include your contact information, in case a KRA official will need to contact you.\n\tii. The director(s) or partner(s) or owner of the business should fill in and sign the eTIMS Acknowledgement &Commitment Form\n\tiii.Copy of the director's/partner's/owner's national ID.\n\tiv. Copy of CR12 form for companies or Partnership Deed for Partnerships.\nThe above documents should be uploaded by the representative on the eTIMS portal."
+            ]
+        },
+        {
+            "tag": "etims_more_info",
+            "patterns": [
+                "Where can I get more information about eTIMS?",
+                "Additional resources for eTIMS information",
+                "How to learn more about eTIMS"
+            ],
+            "responses": [
+                "You can ask me any question about eTims and I will be able to answer you. What do you want to know? \n Alternatively, You can either: \n\ti. Visit the KRA website and access the eTIMS menu\n\tii. Send a Direct Message (DM) via Facebook or Twitter using the official KRA pages.\n\tiii. Visit the nearest KRA office"
+            ]
+        },
+        {
+            "tag": "etims_solutions",
+            "patterns": [
+                "What are the Solutions available on eTIMS?",
+                "Types of eTIMS solutions",
+                "Different eTIMS options available"
+            ],
+            "responses": [
+                "The solutions available include:\n1. eTIMS Lite (Web) - Web based solution accessible through eCitizen. This solution is for businesses with minimal transactions.\n2. eTIMS Lite (USSD) - Accessed through the short code *222#. This solution is for individuals and sole proprietors.\n3.Online Portal- Tailored for taxpayers in the service sector exclusively, where no goods are supplied.\n4. eTIMS Client – A downloadable software designed for taxpayers dealing in goods or both goods and services. The software supports multiple branches and pay points/cashier tills.\n5. Virtual Sales Control Unit (VSCU) – This solution enables seamless system-to-system integration between the taxpayer's invoicing/ERP system and eTIMS, catering to taxpayers with extensive transactions or bulk invoicing.\n6. Online Sales Control Unit (OSCU) – This solution also facilitates system-to-system integration between the taxpayer's invoicing/ERP system and eTIMS. It is ideal for taxpayers using an online invoicing system."
+            ]
+        },
+        {
+            "tag": "etims_contact",
+            "patterns": [
+                "How can i contact eTims",
+                "eTIMS contact information",
+                "Ways to reach eTIMS support"
+            ],
+            "responses": [
+                "You can contact eTims through the following channels:\nEmail: timsupport@kra.go.ke\nPhone Numbers: \n1. 0709 016 995\n2. 0709 017 719\n3. 0709 017 731\n4. 0709 017 718\n5. 0709 017 724\n6. 0709 017 735"
+            ]
+        },
+        {
+            "tag": "etims_invoice_generation",
+            "patterns": [
+                "How to generate invoices using eTims?",
+                "Steps to create an invoice in eTIMS",
+                "eTIMS invoice generation process"
+            ],
+            "responses": [
+                "Step 1: After successfully initializing your eCitizen eTIMS account click on Sales to raise an invoice\nStep 2: Click Invoice\nStep 3: Start by selecting whether it's a Business to Business or Business to Customer transaction. Thereafter you can upload your logo (optional).\nStep 4: Create a customer or select the customer if they already exist. To create a customer simply click the Add New button.\nStep 5: If it is a valid KRA PIN the details of the customer will appear. Click on Add to add the customer to your list of customers\nStep 6: Once the customer is added to the list,select the customer you are invoicing. The details of the customer will appear automatically.\nStep 7: Confirm that the tax type is D (Non-VAT). You can add a note (optional) and also input the Due date\nStep 8: Click on the Add Item button to add an item\nStep 9: Input the item details i.e. the product/service,description,unit cost and quantity then click Add\nStep 10: A summary of the items will be displayed as follows to confirm if the details are in order\nStep 11: You can include any terms and conditions that you would like your customer to see and know and finally select the payment method\nStep 12: Once you have confirmed that all the invoice details are in order, scroll back up and save your invoice. NB: You can either save and download the invoice using the Save button or save and send the invoice to your client via email using the Save And Send button.\n"
+            ]
+        },
+        {
+            "tag": "itax_email_change",
+            "patterns": [
+                "How can I change the current email address from the one I registered with in iTax?",
+                "Updating email address in iTax",
+                "Process to change registered email in iTax"
+            ],
+            "responses": [
+                "Change of email address can be initiated by the taxpayer. On the taxpayers profile under registration, the taxpayer is allowed to amend PIN details.\nOnce the process is initiated by the taxpayer, a task is created for approval by a KRA officer."
+            ]
+        },
+        {
+            "tag": "itax_forgotten_password",
+            "patterns": [
+                "In case I forget my password what can I do?",
+                "Resetting forgotten iTax password",
+                "What to do if I can't remember my iTax password"
+            ],
+            "responses": [
+                "Go to the iTax log in page and select forgotten password. You will be asked for the security question you used when registering for the first time. Once you submit the information successfully, new log in credentials will be sent to your registered email address."
+            ]
+        },
+        {
+            "tag": "itax_forgotten_security_question",
+            "patterns": [
+                "How can I change my password if I have forgotten my security question?",
+                "Resetting iTax password without security question",
+                "What to do if I forgot both iTax password and security question"
+            ],
+            "responses": [
+                "The taxpayer is required to send this PIN to KRA for password and security question reset through:\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "itax_locked_pin",
+            "patterns": [
+                "What do I do if my Pin is locked?",
+                "iTax PIN locked out",
+                "How to unlock iTax PIN"
+            ],
+            "responses": [
+                "All blocked password are reset automatically within 24 hours.\nAlternatively the taxpayer is can send this PIN to KRA to be unlocked reset through:\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "kra_pin_age_requirement",
+            "patterns": [
+                "At what age does one obtain a KRA PIN?",
+                "Minimum age for KRA PIN",
+                "When can I get a KRA PIN"
+            ],
+            "responses": [
+                "A PIN is issued upon acquisition of valid identification documents (e.g ID card)"
+            ]
+        },
+        {
+            "tag": "kra_pin_requirements",
+            "patterns": [
+                "What is the requirement for one to obtain a KRA PIN?",
+                "Documents needed for KRA PIN",
+                "How to qualify for a KRA PIN"
+            ],
+            "responses": [
+                "Valid identification documents (National ID card for residents, Alien ID for non-Kenyan residents, Certificates of registrations for non-individuals)"
+            ]
+        },
+        {
+            "tag": "itax_forgotten_password_reset",
+            "patterns": [
+                "What should I do if I forget my password?",
+                "How to reset forgotten iTax password",
+                "Recovering lost iTax password"
+            ],
+            "responses": [
+                "Go to the iTax log in page and click on forgot password link, answer the security stamp arithmetic and new log in credentials will be sent to your registered email address."
+            ]
+        },
+        {
+            "tag": "itax_update_contact_info",
+            "patterns": [
+                "How can I change the current email and physical address information on iTax?",
+                "Updating contact details in iTax",
+                "Changing email and address in iTax"
+            ],
+            "responses": [
+                "Change of email address can be initiated form the iTax profile, under Registration- Amend PIN details. Once the process is initiated by the taxpayer, a task is created for approval by a KRA officer."
+            ]
+        },
+        {
+            "tag": "itax_limited_partnership_registration",
+            "patterns": [
+                "How can limited partnerships whose partners are non individuals register for PINs on iTax?",
+                "Registering non-individual limited partnerships on iTax",
+                "iTax PIN registration for limited partnerships with non-individual partners"
+            ],
+            "responses": [
+                "Select Business Type as Others and Business Sub Type as Partnerships. Capture the partners PIN under the Directors/Associates. Enter the profit sharing ratio and click on the ADD button, and proceed to add the second PIN.\nNOTE: At the moment, this is only workable for new registrations but not iPage update."
+            ]
+        },
+        {
+            "tag": "itax_stopped_pin",
+            "patterns": [
+                "My PIN has been stopped on iTax. What should I do?",
+                "iTax PIN stopped",
+                "How to reactivate stopped iTax PIN"
+            ],
+            "responses": [
+                "Kindly contact your tax station for clarification on this."
+            ]
+        },
+        {
+            "tag": "itax_name_correction",
+            "patterns": [
+                "My name has been wrongly spelled in iTax",
+                "Correcting misspelled name in iTax",
+                "How to fix incorrect name on iTax"
+            ],
+            "responses": [
+                "The taxpayer is required to send his PIN together with scan colored copies of his original ID card or certificate of incorporation for data correction through the email callcentre@kra.go.ke"
+            ]
+        },
+        {
+            "tag": "itax_non_resident_name_correction",
+            "patterns": [
+                "I am a Non- Kenyan Non- Resident whose name was captured wrongly on iTax. Is there a way to correct this?",
+                "Correcting non-resident name in iTax",
+                "Fixing incorrect non-Kenyan name on iTax"
+            ],
+            "responses": [
+                "We currently do not have an amendment function for names for those PINs linked to passports."
+            ]
+        },
+        {
+            "tag": "etims_multiple_companies",
+            "patterns": [
+                "Can I use the same electronic device to install the eTIMS software for different companies?",
+                "Using one device for eTIMS across multiple companies",
+                "eTIMS installation on single device for multiple businesses"
+            ],
+            "responses": [
+                "No. The eTIMS client software can only be installed on one device per taxpayer, for those selling goods. However, for taxpayers supplying services only, the online portal is accessible on any device since it is a web-based solution."
+            ]
+        },
+        {
+            "tag": "etims_integration",
+            "patterns": [
+                "Is it possible to integrate my billing system with eTIMS?",
+                "eTIMS integration with existing billing system",
+                "Connecting eTIMS to company billing software"
+            ],
+            "responses": [
+                "Yes. It is possible through a system to system integration. This integration is possible via the Virtual Sales Control Unit (VSCU) or Online Sales Control Unit (OSCU). KRA has appointed 3rd party integrators to facilitate the integration process for taxpayers. Below is the list of approved 3rd party integrators:\n1. Advatech Office Supplies LTD (+254728333111)\n2. Stanbest Group (EA) Limited (+254715713475/ 86/88/ 93/ 97)\n3. Namiri Technology Limited (+254112685368)\n4. Interswitch East Africa (K) Limited (+254703053200)\n5. Deities Technologies Limited (+254701051689)"
+            ]
+        },
+        {
+            "tag": "etims_third_party_integrator",
+            "patterns": [
+                "How can one be certified as an eTIMS third-party integrator?",
+                "Becoming an eTIMS third-party integrator",
+                "eTIMS integrator certification process"
+            ],
+            "responses": [
+                "Information on how a person can be certified as a 3rd party integrator or as a self-integrator is available on the KRA website under the eTIMS menu."
+            ]
+        },
+        {
+            "tag": "etims_reinstallation",
+            "patterns": [
+                "Is it possible to re-install the eTIMS client software from one device to another?",
+                "Transferring eTIMS software to a new device",
+                "eTIMS reinstallation process"
+            ],
+            "responses": [
+                "Yes. It is possible. However, you will be required to visit the nearest KRA office for assistance. The following will be required:\ni. In case the device was stolen, provide the Occurrence Book (OB) report from a police station confirming theft of the device.\nii. In case the device malfunctioned, provide a job card from a qualified technician confirming the malfunction.\niii. In any other case such as software upgrade or change of device, provide relevant supporting documents."
+            ]
+        },
+        {
+            "tag": "etims_internet_requirement",
+            "patterns": [
+                "Does one require internet connectivity to invoice through eTIMS?",
+                "eTIMS offline invoicing capability",
+                "Internet requirements for eTIMS"
+            ],
+            "responses": [
+                "-For the online solutions, i.e. online portal and Online Sales Control Unit (OSCU), a stable internet connection is required to generate invoices.\n-For the other solutions i.e. eTIMS Client and VSCU, in case of internet downtime, the solutions will allow you to continue generating tax invoices. However, once your internet connection is restored and is stable, the generated invoices will be transmitted to KRA."
+            ]
+        },
+        {
+            "tag": "etims_invoice_verification",
+            "patterns": [
+                "How can one verify whether an electronic tax invoice is valid?",
+                "Validating eTIMS tax invoices",
+                "Checking authenticity of eTIMS invoices"
+            ],
+            "responses": [
+                "1. Scan the QR code.\n2. Input the invoice number on the `Invoice number checker` menu on the iTax portal"
+            ]
+        },
+        {
+            "tag": "etims_representative",
+            "patterns": [
+                "Can I appoint a representative to onboard me on eTIMS?",
+                "Using a proxy for eTIMS registration",
+                "Appointing someone to set up eTIMS"
+            ],
+            "responses": [
+                "Yes. You can appoint a suitable representative to sign up and install the eTIMS solution on your behalf. The following is required:\n\ti. An introductory letter, signed by at least one of the directors or partner or business owner clearly indicating who has been appointed as the tax representative and their role in the business. Include your contact information, in case a KRA official will need to contact you.\n\tii. The director(s) or partner(s) or owner of the business should fill in and sign the eTIMS Acknowledgement &Commitment Form\n\tiii.Copy of the director's/partner's/owner's national ID.\n\tiv. Copy of CR12 form for companies or Partnership Deed for Partnerships.\nThe above documents should be uploaded by the representative on the eTIMS portal."
+            ]
+        },
+        {
+            "tag": "etims_information",
+            "patterns": [
+                "Where can I get more information about eTIMS?",
+                "Finding eTIMS resources",
+                "eTIMS information sources"
+            ],
+            "responses": [
+                "You can ask me any question about eTims and I will be able to answer you. What do you want to know? \n Alternatively, You can either: \n\ti. Visit the KRA website and access the eTIMS menu\n\tii. Send a Direct Message (DM) via Facebook or Twitter using the official KRA pages.\n\tiii. Visit the nearest KRA office"
+            ]
+        },
+        {
+            "tag": "etims_solutions",
+            "patterns": [
+                "What are the Solutions available on eTIMS?",
+                "Types of eTIMS solutions",
+                "eTIMS software options"
+            ],
+            "responses": [
+                "The solutions available include:\n1. eTIMS Lite (Web) - Web based solution accessible through eCitizen. This solution is for businesses with minimal transactions.\n2. eTIMS Lite (USSD) - Accessed through the short code *222#. This solution is for individuals and sole proprietors.\n3.Online Portal- Tailored for taxpayers in the service sector exclusively, where no goods are supplied.\n4. eTIMS Client – A downloadable software designed for taxpayers dealing in goods or both goods and services. The software supports multiple branches and pay points/cashier tills.\n5. Virtual Sales Control Unit (VSCU) – This solution enables seamless system-to-system integration between the taxpayer's invoicing/ERP system and eTIMS, catering to taxpayers with extensive transactions or bulk invoicing.\n6. Online Sales Control Unit (OSCU) – This solution also facilitates system-to-system integration between the taxpayer's invoicing/ERP system and eTIMS. It is ideal for taxpayers using an online invoicing system."
+            ]
+        },
+        {
+            "tag": "etims_contact",
+            "patterns": [
+                "How can i contact eTims",
+                "eTIMS support contact information",
+                "Reaching out to eTIMS support"
+            ],
+            "responses": [
+                "You can contact eTims through the following channels:\nEmail: timsupport@kra.go.ke\nPhone Numbers: \n1. 0709 016 995\n2. 0709 017 719\n3. 0709 017 731\n4. 0709 017 718\n5. 0709 017 724\n6. 0709 017 735"
+            ]
+        },
+        {
+            "tag": "etims_invoice_generation",
+            "patterns": [
+                "How to generate invoices using eTims?",
+                "eTIMS invoice creation process",
+                "Steps to issue invoices on eTIMS"
+            ],
+            "responses": [
+                "Step 1: After successfully initializing your eCitizen eTIMS account click on Sales to raise an invoice\nStep 2: Click Invoice\nStep 3: Start by selecting whether it's a Business to Business or Business to Customer transaction. Thereafter you can upload your logo (optional).\nStep 4: Create a customer or select the customer if they already exist. To create a customer simply click the Add New button.\nStep 5: If it is a valid KRA PIN the details of the customer will appear. Click on Add to add the customer to your list of customers\nStep 6: Once the customer is added to the list,select the customer you are invoicing. The details of the customer will appear automatically.\nStep 7: Confirm that the tax type is D (Non-VAT). You can add a note (optional) and also input the Due date\nStep 8: Click on the Add Item button to add an item\nStep 9: Input the item details i.e. the product/service,description,unit cost and quantity then click Add\nStep 10: A summary of the items will be displayed as follows to confirm if the details are in order\nStep 11: You can include any terms and conditions that you would like your customer to see and know and finally select the payment method\nStep 12: Once you have confirmed that all the invoice details are in order, scroll back up and save your invoice. NB: You can either save and download the invoice using the Save button or save and send the invoice to your client via email using the Save And Send button."
+            ]
+        },
+        {
+            "tag": "itax_email_change",
+            "patterns": [
+                "How can I change the current email address from the one I registered with in iTax?",
+                "Updating email address on iTax",
+                "Modifying registered email in iTax"
+            ],
+            "responses": [
+                "Change of email address can be initiated by the taxpayer. On the taxpayers profile under registration, the taxpayer is allowed to amend PIN details.\nOnce the process is initiated by the taxpayer, a task is created for approval by a KRA officer."
+            ]
+        },
+        {
+            "tag": "itax_forgotten_password",
+            "patterns": [
+                "In case I forget my password what can I do?",
+                "Resetting forgotten iTax password",
+                "Recovering iTax account access"
+            ],
+            "responses": [
+                "Go to the iTax log in page and select forgotten password. You will be asked for the security question you used when registering for the first time. Once you submit the information successfully, new log in credentials will be sent to your registered email address."
+            ]
+        },
+        {
+            "tag": "itax_forgotten_security_question",
+            "patterns": [
+                "How can I change my password if I have forgotten my security question?",
+                "Resetting iTax password without security question",
+                "iTax password recovery without security answer"
+            ],
+            "responses": [
+                "The taxpayer is required to send this PIN to KRA for password and security question reset through:\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "itax_locked_pin",
+            "patterns": [
+                "What do I do if my Pin is locked?",
+                "Unlocking iTax PIN",
+                "Resolving locked iTax account"
+            ],
+            "responses": [
+                "All blocked password are reset automatically within 24 hours.\nAlternatively the taxpayer is can send this PIN to KRA to be unlocked reset through:\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "kra_pin_age_requirement",
+            "patterns": [
+                "At what age does one obtain a KRA PIN?",
+                "Age limit for KRA PIN",
+                "When can I get a KRA PIN"
+            ],
+            "responses": [
+                "A PIN is issued upon acquisition of valid identification documents (e.g ID card)"
+            ]
+        },
+        {
+            "tag": "kra_pin_requirements",
+            "patterns": [
+                "What is the requirement for one to obtain a KRA PIN?",
+                "Documents needed for KRA PIN",
+                "KRA PIN application requirements"
+            ],
+            "responses": [
+                "Valid identification documents (National ID card for residents, Alien ID for non-Kenyan residents, Certificates of registrations for non-individuals)"
+            ]
+        },
+        {
+            "tag": "itax_forgotten_password_2",
+            "patterns": [
+                "What should I do if I forget my password?",
+                "iTax password recovery steps",
+                "Resetting iTax login credentials"
+            ],
+            "responses": [
+                "Go to the iTax log in page and click on forgot password link, answer the security stamp arithmetic and new log in credentials will be sent to your registered email address."
+            ]
+        },
+        {
+            "tag": "itax_contact_update",
+            "patterns": [
+                "How can I change the current email and physical address information on iTax?",
+                "Updating contact details on iTax",
+                "Modifying iTax profile information"
+            ],
+            "responses": [
+                "Change of email address can be initiated form the iTax profile, under Registration- Amend PIN details. Once the process is initiated by the taxpayer, a task is created for approval by a KRA officer."
+            ]
+        },
+        {
+            "tag": "itax_limited_partnership_registration",
+            "patterns": [
+                "How can limited partnerships whose partners are non individuals register for PINs on iTax?",
+                "Registering non-individual limited partnerships on iTax",
+                "iTax PIN registration for limited partnerships with non-individual partners"
+            ],
+            "responses": [
+                "Select Business Type as Others and Business Sub Type as Partnerships. Capture the partners PIN under the Directors/Associates. Enter the profit sharing ratio and click on the ADD button, and proceed to add the second PIN.\nNOTE: At the moment, this is only workable for new registrations but not iPage update."
+            ]
+        },
+        {
+            "tag": "itax_stopped_pin",
+            "patterns": [
+                "My PIN has been stopped on iTax. What should I do?",
+                "iTax PIN stopped",
+                "How to reactivate stopped iTax PIN"
+            ],
+            "responses": [
+                "Kindly contact your tax station for clarification on this."
+            ]
+        },
+        {
+            "tag": "itax_name_correction",
+            "patterns": [
+                "My name has been wrongly spelled in iTax",
+                "Correcting misspelled name in iTax",
+                "How to fix incorrect name on iTax"
+            ],
+            "responses": [
+                "The taxpayer is required to send his PIN together with scan colored copies of his original ID card or certificate of incorporation for data correction through the email callcentre@kra.go.ke"
+            ]
+        },
+        {
+            "tag": "itax_non_resident_name_correction",
+            "patterns": [
+                "I am a Non- Kenyan Non- Resident whose name was captured wrongly on iTax. Is there a way to correct this?",
+                "Correcting non-resident name in iTax",
+                "Fixing incorrect non-Kenyan name on iTax"
+            ],
+            "responses": [
+                "We currently do not have an amendment function for names for those PINs linked to passports."
+            ]
+        },
+        {
+            "tag": "itax_limited_access",
+            "patterns": [
+                "What do I do after registering and can see only two icons (change password and logout)?",
+                "Limited access to iTax after registration",
+                "Why can I only see change password and logout on iTax"
+            ],
+            "responses": [
+                "Normally a taxpayers profile will be fully populated will all icons within 24 hours upon registration. However a taxpayer intending to transact immediately can send this PIN to KRA through: email Callcentre@kra.go.ke\nOr;\nCall 0711099999\nOr;\nSend a Direct Message (DM)  via Facebook or Twitter using the offical KRA pages.\nOr;\nVisit the nearest KRA office"
+            ]
+        },
+        {
+            "tag": "itax_tax_obligation_prompt",
+            "patterns": [
+                "What to do when the system prompts you to at least have one of the tax obligations.",
+                "System asking for tax obligation during registration",
+                "How to add tax obligation when prompted"
+            ],
+            "responses": [
+                "This happens especially in the case of an individual registration.\nJust send this PIN to KRA through:\nemail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\ncall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office and request for the obligation."
+            ]
+        },
+        {
+            "tag": "ipage_update_requirement",
+            "patterns": [
+                "Who should update iPage?",
+                "Is iPage update mandatory?",
+                "Do I need to update my iPage?"
+            ],
+            "responses": [
+                "All taxpayers (individuals, companies, parastatals, NGOs, etc) should update their information using the iPage.\nWhen logging for the first time, the initial requirement will be updating iPage."
+            ]
+        },
+        {
+            "tag": "ipage_update_reason",
+            "patterns": [
+                "Why should I update my iPage?",
+                "Purpose of updating iPage",
+                "Benefits of updating iPage"
+            ],
+            "responses": [
+                "iTax provides for capture of additional registration data not previously captured. The information required in iTax includes among others your county, employer, cell phone contact, unique email address, tax agent, etc."
+            ]
+        },
+        {
+            "tag": "ipage_update_timing",
+            "patterns": [
+                "When should I update my iPage?",
+                "Timing for iPage update",
+                "Best time to update iPage"
+            ],
+            "responses": [
+                "Taxpayers are required to update their iPage on first log in to iTax."
+            ]
+        },
+        {
+            "tag": "ipage_update_location",
+            "patterns": [
+                "Where can I update my iPage?",
+                "How to access iPage update",
+                "Website for iPage update"
+            ],
+            "responses": [
+                "Go to https://itax.kra.go.ke\nOr;\nVisit the KRA website www.kra.go.ke. Click on Online services and select PIN Registration to access the iTax portal."
+            ]
+        },
+        {
+            "tag": "ipage_update_process",
+            "patterns": [
+                "How do I update my iPage?",
+                "Steps to update iPage",
+                "iPage update procedure"
+            ],
+            "responses": [
+                "One is required to fill in the mandatory fields especially under basic information then submit the data so as to update the taxpayers information with KRA."
+            ]
+        },
+        {
+            "tag": "pin_not_recognized_ipage",
+            "patterns": [
+                "What do I do if my PIN is not recognized when I try to update my iPage?",
+                "PIN not recognized during iPage update",
+                "iPage update PIN error"
+            ],
+            "responses": [
+                "This happens for new PINs that have not been migrated to iTax.The taxpayer is required to send this PIN to KRA for migration through;\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "vat_certificate_requirement",
+            "patterns": [
+                "Do I need a VAT certificate if I have a PIN certificate?",
+                "Is VAT certificate necessary with PIN certificate?",
+                "PIN certificate vs VAT certificate"
+            ],
+            "responses": [
+                "No. PIN certificate is sufficient.\nWhat the taxpayer needs to do if they start dealing in vat-able business is to add VAT obligation on the PIN."
+            ]
+        },
+        {
+            "tag": "ipage_update_data_inconsistency",
+            "patterns": [
+                "What happens when we try to update iPage and the data is not consistent with the database?",
+                "iPage update data mismatch",
+                "Inconsistent data during iPage update"
+            ],
+            "responses": [
+                "The taxpayer is required to send this PIN to KRA for data correction through;\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "registration_error_139",
+            "patterns": [
+                "I am trying to register but I keep getting error ref. no. 139.....what do I do?",
+                "Error 139 during registration",
+                "Registration error reference 139"
+            ],
+            "responses": [
+                "This happens when there is poor internet connectivity.\nSorry, but be patient and keep trying."
+            ]
+        },
+        {
+            "tag": "dob_incorporation_date_error",
+            "patterns": [
+                "What do I do if I have Error in date of birth or certificate of incorporation?",
+                "Date of birth error in registration",
+                "Incorporation date error"
+            ],
+            "responses": [
+                "The taxpayer is required to send this PIN to KRA for data correction through:\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "income_tax_date_error",
+            "patterns": [
+                "What do I do if Income tax date comes before business commencement date?",
+                "Income tax date error",
+                "Business commencement date issue"
+            ],
+            "responses": [
+                "The taxpayer is required to send this PIN to KRA for data correction through:\nEmail Callcentre@kra.go.ke and DTDOnlineSupport@kra.go.ke\nOr;\nCall 020 2390919 and 020 2391099 and 0771628105\nOr;\nVisit the nearest KRA office."
+            ]
+        },
+        {
+            "tag": "itax_definition",
+            "patterns": [
+                "What is iTax?",
+                "Define iTax",
+                "Explain iTax system"
+            ],
+            "responses": [
+                "iTax is a system that has been developed by KRA to improve on efficiency.\niTax allows you to register for a PIN, file your tax returns, apply for a tax compliance certificate, generate a payment slip, check your ledger account among others."
+            ]
+        },
+        {
+            "tag": "itax_functionality",
+            "patterns": [
+                "How does iTax work?",
+                "iTax system functionality",
+                "What can I do with iTax?"
+            ],
+            "responses": [
+                "iTax allows one to update their tax registration details, file tax returns, register all tax payments and make status enquiries with real-time monitoring of their ledger/account."
+            ]
+        },
+        {
+            "tag": "itax_access",
+            "patterns": [
+                "How do I access iTax?",
+                "iTax login process",
+                "Accessing iTax system"
+            ],
+            "responses": [
+                "To log on to iTax , visit itax.kra.go.ke and follow the prompts."
+            ]
+        },
+        {
+            "tag": "itax_error_148",
+            "patterns": [
+                "I am trying access the portal but I keep getting error ref. no. 148..... What do I do?",
+                "iTax error 148",
+                "Portal access error 148"
+            ],
+            "responses": [
+                "This happens when there is network fluctuation. Please be patient and keep trying."
+            ]
+        },
+        {
+            "tag": "itax_training",
+            "patterns": [
+                "Does KRA offer training on iTax?",
+                "iTax training availability",
+                "How to get trained on iTax"
+            ],
+            "responses": [
+                "Yes. Training is done free of charge every first two Thursdays of the month at the Convention Centre, 5th floor Times Tower."
+            ]
+        },
+        {
+            "tag": "itax_return_filing",
+            "patterns": [
+                "Can I file all returns on iTax?",
+                "Types of returns filed on iTax",
+                "iTax return filing process"
+            ],
+            "responses": [
+                "Yes you can.\nFirst, you need to login into the system then go to the returns tab and select file return and download the return.\nYou need to fill the return offline before you generate a zipped file that you will upload."
+            ]
+        },
+        {
+            "tag": "vat_previous_credits",
+            "patterns": [
+                "How do I treat Credits from a previous VAT return?",
+                "Handling previous VAT credits",
+                "VAT return credit treatment"
+            ],
+            "responses": [
+                "On the VAT return at the Tax Due worksheet, you can be able to put the figure at from the previous months credit."
+            ]
+        },
+        {
+            "tag": "supplier_without_pin",
+            "patterns": [
+                "If I dont have PINs for my suppliers what should I do?",
+                "Supplier without PIN",
+                "Handling suppliers without PINs"
+            ],
+            "responses": [
+                "Invoice without PIN is not valid tax invoice & therefore not allowed for tax deduction."
+            ]
+        },
+        {
+            "tag": "credit_notes_itax",
+            "patterns": [
+                "How do I treat Credit notes in iTax?",
+                "Credit notes in iTax returns",
+                "Handling credit notes on iTax"
+            ],
+            "responses": [
+                "iTax has provided for inclusion of the credit notes in the return. While filling the returns one needs to input a negative figure but quote the invoice relating to the credit note."
+            ]
+        },
+        {
+            "tag": "return_error_correction",
+            "patterns": [
+                "Can I correct an error once I file a return?",
+                "Fixing mistakes in filed returns",
+                "Correcting errors in iTax returns"
+            ],
+            "responses": [
+                "Yes.\nYou can do this by filing an amended return."
+            ]
+        },
+        {
+            "tag": "enabling_macros",
+            "patterns": [
+                "I have heard that before one can complete the Excel Return one is required to enable MACROS on the excel sheet. What is enabling MACROS and how does one do this?",
+                "How to enable MACROS for iTax returns",
+                "MACROS in iTax Excel returns"
+            ],
+            "responses": [
+                "MACROS are inbuilt formulae in Excel that should be enabled once you download the return so that you can be able to fill in the details of the return.\nEnabling MACROS is on the read me section of the return and it gives you a step by step guide depending on the Excel version you have."
+            ]
+        },
+        {
+            "tag": "bulk_data_return_filing",
+            "patterns": [
+                "My business system produces a lot of data. With the Excel returns I will be required to fill every cell to input my data. This is cumbersome and time consuming. What will you do to facilitate and eliminate this inconvenience?",
+                "Handling bulk data in iTax returns",
+                "Efficient data input for iTax returns"
+            ],
+            "responses": [
+                "You can be able to do the returns in Excel and import the information to the return. You need to save this information in CSV (Comma delimited) for further information please contact KRA certified Intermediary agents, or call 020 2390919 and 020 2391099 and 0771628105."
+            ]
+        },
+        {
+            "tag": "nil_return_filing",
+            "patterns": [
+                "I have a PIN but have not traded. Do I have to file returns?",
+                "Filing returns without trading",
+                "NIL return filing requirement"
+            ],
+            "responses": [
+                "Yes you need to file a NIL return.\nAll you need to do is go to your iTax profile, Returns, and select the NIL return option and submit."
+            ]
+        },
+        {
+            "tag": "previous_returns_filing",
+            "patterns": [
+                "What do I do if I am trying to upload my return but system tells me I have to file returns for previous months/year?",
+                "System asking for previous returns",
+                "Filing current return with missing previous returns"
+            ],
+            "responses": [
+                "In the case of first time filling you need to call KRA for the change of roll-out date. In the case that you had filled the first return on iTax and failed to file subsequent returns i.e. for one or three months, you need to file the missing returns in iTax before you can file the current one."
+            ]
+        },
+        {
+            "tag": "unregistered_tax_obligation",
+            "patterns": [
+                "What do I do if I am trying to file VAT/PAYE return on iTax but system tells me I am not registered for that return?",
+                "Unable to file VAT/PAYE return",
+                "Tax obligation not registered error"
+            ],
+            "responses": [
+                "You need to update your tax obligation information in your iTax account to enable you to file."
+            ]
+        },
+        {
+            "tag": "view_previous_returns",
+            "patterns": [
+                "Can I view a copy of the previous returns that I have filed for previous tax periods?",
+                "Accessing past filed returns",
+                "How to view previous tax returns"
+            ],
+            "responses": [
+                "Yes. You login to your account, select the returns tab then consult return. You need to select the type of return and the period."
+            ]
+        },
+        {
+            "tag": "return_of_income_definition",
+            "patterns": [
+                "What is a return of income?",
+                "Define return of income",
+                "Explanation of income return"
+            ],
+            "responses": [
+                "Declarations of all the incomes of a person in the given year of income."
+            ]
+        },
+        {
+            "tag": "itax_returns_availability",
+            "patterns": [
+                "Are the returns available on iTax?",
+                "iTax return availability",
+                "Can I find returns on iTax?"
+            ],
+            "responses": [
+                "Yes"
+            ]
+        },
+        {
+            "tag": "declarable_income",
+            "patterns": [
+                "What income is to be declared?",
+                "Types of income to declare",
+                "Income declaration requirements"
+            ],
+            "responses": [
+                "All taxable income"
+            ]
+        },
+        {
+            "tag": "nil_return_requirement",
+            "patterns": [
+                "If one does not have income and has a KRA PIN are you required to file a return?",
+                "Filing returns without income",
+                "KRA PIN holder without income return filing"
+            ],
+            "responses": [
+                "Yes, they are to file NIL returns for the period without income."
+            ]
+        },
+        {
+            "tag": "kra_return_submission_requirement",
+            "patterns": [
+                "Who is required to submit a KRA tax return?",
+                "Tax return submission requirements"
+            ],
+            "responses": [
+                "Any individual who has an active PIN as per the requirements of the registered obligations under the PIN."
+            ]
+        },
+        {
+            "tag": "commissioner_income_tax_returns",
+            "patterns": [
+                "Why does the commissioner not consider removing the requirement of filling of income tax individual returns by employees who have no other source of income?",
+                "Reason for requiring income tax returns from single-income employees",
+                "Why are individual tax returns mandatory for employees with only one income source?"
+            ],
+            "responses": [
+                "The income tax individual return is a requirement under section 52 of the income tax act."
+            ]
+        },
+        {
+            "tag": "employee_income_tax_returns",
+            "patterns": [
+                "Why does KRA require taxpayers to file income tax individual returns yet the employers had filed the paye retuns?",
+                "Reason for individual tax returns when employer files PAYE",
+                "Why file personal tax returns if employer submits PAYE?"
+            ],
+            "responses": [
+                "The employer files PAYE returns to declare taxes deducted from their employees. The employee files The returns to declare their total incomes ie(farming income, business income, employment income, interest, commissions among others)"
+            ]
+        },
+        {
+            "tag": "p9_form",
+            "patterns": [
+                "What is a P9?",
+                "Definition of P9 form",
+                "Explain P9 in tax context"
+            ],
+            "responses": [
+                "A summary of The employment income received in The given year,its issued by The employer to employees"
+            ]
+        },
+        {
+            "tag": "itr_return_editing",
+            "patterns": [
+                "I am unable to edit the details on my ITR return.",
+                "Can't modify ITR return details",
+                "Issues with editing ITR return information"
+            ],
+            "responses": [
+                "Editing of fields for the Income Tax Return, ITR for employment income only has been disabled. If a taxpayer who opts to use this auto populated return notices a discrepancy, they should proceed to file the return using the excel IT1 return."
+            ]
+        },
+        {
+            "tag": "excel_it1_return_requirement",
+            "patterns": [
+                "Under what circumstances would it be mandatory for me to file the excel IT1 return?",
+                "When is filing excel IT1 return necessary?",
+                "Situations requiring excel IT1 return filing"
+            ],
+            "responses": [
+                "If your employer is not remitting PAYE through iTax like the MDAs(Ministry, Departments and Agencies of government) especially those using IFMIS then the PAYE credits will not be posted to your ledger and hence you should file the IT1 returns using the excel form.\nIf you have a WHT certificate or any other income apart from employment."
+            ]
+        },
+        {
+            "tag": "income_tax_withholding_certificate_reprint",
+            "patterns": [
+                "I am not able to reprint my income tax withholding certificates.",
+                "Issues with reprinting income tax withholding certificates",
+                "How to reprint income tax withholding certificates"
+            ],
+            "responses": [
+                "Retrieve the WHT certificate details from the certificates tab. Reprint WHT certificate- Consult"
+            ]
+        },
+        {
+            "tag": "disability_certificate_date_it1",
+            "patterns": [
+                "What should a person living with disability indicate as the Certificate Date when filing the IT1 Return?",
+                "Disability certificate date for IT1 Return",
+                "How to fill Certificate Date for disabled persons in IT1 Return"
+            ],
+            "responses": [
+                "The date to indicate is dependent on various scenarios.\nIf the exemption certificate was renewed before the period you are filing the IT1 return, use the exemption certificate dates as from 01/01/year to 31/12/year.\nIf the exemption certificate was renewed within the tax period of filing the return the IT1 return can be filed by declaring both the expired one and the renewed exemption certificate."
+            ]
+        },
+        {
+            "tag": "previous_returns_disability_exemption",
+            "patterns": [
+                "What happens to Previous Returns filed by person living with disability whereby the return could not accept Two, 2 Exemption Certificates?",
+                "Handling previous returns with multiple disability exemption certificates",
+                "Updating past returns for disabled persons with multiple exemption certificates"
+            ],
+            "responses": [
+                "Prior cases can now be amended on iTax to ensure that relief amounts are gotten for a full period as per the Income Tax Act."
+            ]
+        },
+        {
+            "tag": "new_tax_rates_paye",
+            "patterns": [
+                "How do the new tax rates apply when filing PAYE returns?",
+                "Applying new tax rates to PAYE returns",
+                "Impact of new tax rates on PAYE filing"
+            ],
+            "responses": [
+                "Depending on the period declared in the basic information the return will apply the relevant rates and reliefs applicable for that period e.g. if you select return period as 01/01/2017 to 31/12/2017 then the return will use the new rates and reliefs as per the Finance Act 2016."
+            ]
+        },
+        {
+            "tag": "correcting_filed_return",
+            "patterns": [
+                "Can I correct an error once I file a return, amendments?",
+                "Fixing mistakes in filed returns",
+                "Process for amending submitted tax returns"
+            ],
+            "responses": [
+                "Yes. You can do this by filing an amended return."
+            ]
+        },
+        {
+            "tag": "enable_macros_excel_return",
+            "patterns": [
+                "How does one enable MACROS on the Excel Return?",
+                "Enabling macros in Excel tax return",
+                "Steps to activate macros for Excel tax forms"
+            ],
+            "responses": [
+                "MACROS are inbuilt formulae in Excel that should be enabled once you download the return so that you can be able to fill in the details of the return. Enable MACROS under File - Options- Trust Center- Trust Center Settings- Macro Settings- Check to enable all macros- Check trust access to the VBA project model."
+            ]
+        },
+        {
+            "tag": "view_previous_returns",
+            "patterns": [
+                "Can I view a copy of the previous returns that I have filed?",
+                "Accessing past tax returns",
+                "How to see previously filed tax returns"
+            ],
+            "responses": [
+                "Yes. Log on to your account, select returns then consult return. You need to indicate the type of return and the period."
+            ]
+        },
+        {
+            "tag": "corporation_tax_incentives_newly_listed",
+            "patterns": [
+                "What Corporation Tax incentives do newly listed companies enjoy?",
+                "Tax benefits for newly listed companies",
+                "Corporation tax incentives for new listings"
+            ],
+            "responses": [
+                "Currently the Income Tax Act does not offer a preferential tax regime for newly listed companies. These provisions were deleted effective 25th April, 2020 by The Tax Laws (Amendment) Act, 2020."
+            ]
+        },
+        {
+            "tag": "epz_corporation_tax_exemption",
+            "patterns": [
+                "Are EPZ exempt from Corporation Tax?",
+                "EPZ corporation tax exemption",
+                "Tax exemptions for Export Processing Zones"
+            ],
+            "responses": [
+                "Yes.\nAn Export Processing Zone (EPZ) enterprise which does not engage in any commercial activities is exempted from paying any corporation tax for a period of 10 years starting with the year in which production, sales or receipts relating to the activities for which that enterprise has been licensed as an EPZ enterprise commence.\n After the 10th year, the corporation rate of tax will be 25% for the period of 10 years commencing immediately thereafter.\n\"Commercial activities\" referred to above, include trading in, breaking bulk, grading, repacking, or relabelling of goods and industrial raw materials\nThough exempt from corporation tax, there following are tax obligations that the EPZ enterprise would be liable for during the period in which it is exempt from corporation tax:\n\ti. The enterprise shall be deemed to be a non-resident subject to a non-resident rate of withholding tax on payments made to the enterprise. Where such payments are made by a person who is not an EPZ enterprise, the tax shall be final tax; and\n\tii. Payments by an export processing zone enterprise to any person other than a resident person shall be deemed to be exempted from tax.\n\tiii. The employees and directors, other than non-residents, of an export processing zone enterprise shall be liable to tax on their employment income and the EPZ enterprise employing them will be required to deduct and remit tax from their employment income.\nIt is important to note that for the period an EPZ enterprise is exempt, it will still be required to submit an annual return of income.\nIn the event of failure to submit a return or late submission of a return, the enterprise will be liable to a penalty of two thousand shillings per day for as long as the return remains unfiled. This penalty shall for purposes of provisions relating to the deduction and recovery of the tax be deemed to be tax."
+            ]
+        },
+        {
+            "tag": "partnerships_corporation_tax",
+            "patterns": [
+                "Do Partnerships pay Corporation Tax?",
+                "Corporation tax for partnerships",
+                "Are partnerships subject to corporation tax?"
+            ],
+            "responses": [
+                "No.\nPartnerships do not pay corporation tax. Partnership income is declared through the partnership return.\nThe table income is distributed to the individual partners as per the agreed profit sharing ratios.\nThe share of profit then forms part of each individual's partner's income. It will be added to any other income and the total income taxed accordingly."
+            ]
+        },
+        {
+            "tag": "self_employed_corporation_tax",
+            "patterns": [
+                "Do self-employed people pay Corporation Tax?",
+                "Corporation tax for self-employed individuals",
+                "Are sole proprietors subject to corporation tax?"
+            ],
+            "responses": [
+                "No.\nSelf-employed people and Sole proprietorships are not subject to corporation tax.\nThey are required to declare their total income of the year in the Individual Income Tax Return and pay Income Tax."
+            ]
+        },
+        {
+            "tag": "company_expense_claims",
+            "patterns": [
+                "Can I claim my company expenses?",
+                "Claiming business expenses for tax purposes",
+                "Deductible company expenses for tax"
+            ],
+            "responses": [
+                "When filing your Corporation Tax Return (also referred to as Income Tax - Company Return) you are only allowed to claim expenses that have been wholly and exclusively incurred in the production of your income as guided in section 15 and 16 of the Income Tax Act, Cap. 470."
+            ]
+        },
+        {
+            "tag": "company_losses_treatment",
+            "patterns": [
+                "What if I had incurred losses?",
+                "Handling company losses for tax purposes",
+                "Tax treatment of business losses"
+            ],
+            "responses": [
+                "A company is allowed to carry forward its losses that will be offset against future taxable income.\nHowever, losses cannot be transferred to a different entity.\nCompanies in the extractive industry e.g. mining, oil and gas industries, are only allowed to carry their losses forward for a period of three years, from the year of income in which the loss arose."
+            ]
+        },
+        {
+            "tag": "auditor_requirement",
+            "patterns": [
+                "Do I need to have an auditor?",
+                "Requirement for company auditors",
+                "Is an auditor necessary for my business?"
+            ],
+            "responses": [
+                "Yes.\nYou should ensure that you get a certified auditor, to  verify the records used to prepare your financial statements."
+            ]
+        },
+        {
+            "tag": "investment_deductions_accounting",
+            "patterns": [
+                "How to account for investment deductions.",
+                "Accounting for investment deductions",
+                "Handling investment deductions in tax accounting"
+            ],
+            "responses": [
+                "*Buildings (Including Hotels)*\n- Building plans and architect's certificates.\n- Bills of quantities\n- Local authority occupation certificates.\n- Factory layout sketches showing the location of machinery.\n- Other supporting documents to support the expenditure incurred e.g. suppliers' invoices, contract documents, certificates of occupation etc.\n*Plant and Machinery*\n- Suppliers invoices and vouchers.\n- Customs documents where machinery is imported.\n- Clearing and forwarding documents.\n- Documents to support foreign currency transactions.\n- Documents to support cost of installation of machinery.\n*NOTE:* To make it easier for us to examine the documents, prepare a breakdown of the costs and the relevant supporting documents."
+            ]
+        },
+        {
+            "tag": "cooperative_society_dividends_bonuses",
+            "patterns": [
+                "How to account for dividends and bonuses paid by a cooperative society as allowable deductions.",
+                "Cooperative society dividends and bonuses as deductions",
+                "Tax treatment of cooperative society payouts"
+            ],
+            "responses": [
+                "Dividends and bonuses are treated as allowable deductions, against total taxable income.\n- A Society designated co-operative society, other than a designated primary society can pay 100% of total income as dividends to and bonuses to its members.\n- The dividiends are subject to Withholding Tax at the rate of 15%, treated as Qualifying Dividends while bonuses would be subject to PAYE.\n- If a Society dividends and bonuses do not comprise 100% of total taxable income, then the remaining amount is subjected to 30% corporate tax\n- The dividends and bonuses payable cannot exceed 80% 100% of the society's total income.\n_designated co-operative society_ means a co-operative society registered under the Co-operative Societies Act;\n_primary society_ means a co-operative society registered under the Co-operatives Societies Act whose membership of which is restricted to individual persons.\nDeducting dividends and bonuses from adjusted income only happens if;\n- Payment is made in cash or by cheque to the members.\n- Payment is approved at the AGM by the members of the primary co-op society.\n- Payment is approved by the commissioner of co-op societies."
+            ]
+        },
+        {
+            "tag": "current_income_tax_rates",
+            "patterns": [
+                "What are the prevailing income tax rates?",
+                "Current income tax rates",
+                "Latest income tax brackets and rates"
+            ],
+            "responses": [
+                "- On the first Kshs 24,000 per month or Kshs 288,000 per annum\n- On the next Kshs 8,333 per month or Kshs 100,000 per annum\n- On all income amounts in excess of Kshs 32,333 or Kshs 388,000 per annum\nThe applicable monthly personal relief is Kshs. 2,400 per month or Kshs 28,800 per annum."
+            ]
+        },
+        {
+            "tag": "paye_casual_employment",
+            "patterns": [
+                "Does PAYE include earnings from casual employment?",
+                "PAYE applicability to casual workers",
+                "Casual employment and PAYE"
+            ],
+            "responses": [
+                "No.\n'Casual employment' in this case refers to employment that is under one month.\nRegular part-time employees and regular casual employment, where the employees are employed casually but regularly, are not considered to be casual employees."
+            ]
+        },
+        {
+            "tag": "employee_benefits_taxation",
+            "patterns": [
+                "Are employee benefits taxable?",
+                "Taxation of employee benefits",
+                "Tax implications of workplace perks"
+            ],
+            "responses": [
+                "Yes.\nWhere an employee enjoys a benefit, advantage or facility of whatsoever nature in connection with employment or services rendered; the value of such benefit should be included in the employee's earnings and charged to tax."
+            ]
+        },
+        {
+            "tag": "employee_loans_taxation",
+            "patterns": [
+                "Tell me about taxation of loans to employees",
+                "How are employee loans taxed?",
+                "Tax implications of company loans to staff"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "paye_casual_employment",
+            "patterns": [
+                "Does PAYE include earnings from casual employment?",
+                "PAYE applicability to casual workers",
+                "Casual employment and PAYE"
+            ],
+            "responses": [
+                "No.\n'Casual employment' in this case refers to employment that is under one month.\nRegular part-time employees and regular casual employment, where the employees are employed casually but regularly, are not considered to be casual employees."
+            ]
+        },
+        {
+            "tag": "employee_benefits_taxation",
+            "patterns": [
+                "Are employee benefits taxable?",
+                "Taxation of employee benefits",
+                "Tax implications of workplace perks"
+            ],
+            "responses": [
+                "Yes.\nWhere an employee enjoys a benefit, advantage or facility of whatsoever nature in connection with employment or services rendered; the value of such benefit should be included in the employee's earnings and charged to tax."
+            ]
+        },
+        {
+            "tag": "employee_loans_taxation",
+            "patterns": [
+                "Tell me about taxation of loans to employees",
+                "How are employee loans taxed?",
+                "Tax implications of company loans to staff"
+            ],
+            "responses": [
+                "Sometimes employers provide loans to their employees and charge an interest lower than the prescribed rate. This becomes a benefit to the employee, for which the employer needs to file and pay Fringe Benefit Tax.\nThe difference between the prescribed rate and the employer's loan rate is chargeable to tax, on the employee. The taxable value of fringe benefit tax is the difference between the market interest rate and the actual interest paid on the loan.\nExample:\nKen gets a loan of Kshs. 3,000,000\nLoan amount:  Kshs.3,000,000\nInterest charged: 3%\nMarket Interest rate for the month: 9%\nFringe Benefit is (9% - 3% = 6%) = Kshs.3,000,000 x 6% =180,000 p.a\ni.e.   Kshs. 15,000   per   month.\nFringe   Benefit   tax   payable   by   employer   is   Kshs.   15,000 x 30% = Kshs. 4,500/-  for the month",
+                "This is a tax on loans to employees.\nWhen an employer provides a loan to an employee and charges interest below the prescribed rate of interest, then the difference between the prescribed rate and the employer's loan rate is a benefit from employment, that the employee should pay tax for.\nThis is type of tax is called Fringe Benefit Tax"
+            ]
+        },
+        {
+            "tag": "withholding_income_tax",
+            "patterns": [
+                "What is Withholding Income Tax?",
+                "How does withholding tax work?",
+                "What is Withholding Income Tax and what type of transactions does it apply to?"
+            ],
+            "responses": [
+                "Withholding Income Tax is tax withheld at source. A person making certain payments deducts tax, at the applicable rate, and remits the tax to the Commissioner on behalf of the recipient. Examples of payments subject to withholding tax include, among others: \n\ta. Management, professional or training fees\n\tb.Consultancy fees, Legal fees, Audit fees\n\tc. Contractual fees\n\td. Winnings\n\te. Appearance at or performance to entertain\n\tf. Royalties\n\tg. Interest and deemed interest\n\th. Dividends",
+                "The person making the payment deducts tax prior to paying the amount due. The tax withheld/deducted is then remitted to the KRA. The payer is required to generate a withholding tax certificate on iTax which is automatically sent to the payee once the payer remits the withholding tax to KRA. Withholding tax deducted should be remitted to KRA by the 20th day of the month following the month in which the tax was deducted.\nWithholding tax is claimable by the payee when filing their annual tax returns and is not an additional tax"
+            ]
+        },
+        {
+            "tag": "withholding_tax_penalty",
+            "patterns": [
+                "What is the penalty for failure to deduct withholding tax?"
+            ],
+            "responses": [
+                "Where a payer fails to withhold tax, the tax shall be deemed to be due and payable by him as though he was the person who earned the income and the due date for the payment shall be the date on which the amount of tax should have been remitted to KRA.\nA late payment penalty of 5% shall also apply on the tax due together with a late payment interest of 1% per month for the period that the tax remains unpaid."
+            ]
+        },
+        {
+            "tag": "withholding_tax_final",
+            "patterns": [
+                "Is withholding tax a final tax?"
+            ],
+            "responses": [
+                "There are a few instances where withholding tax is a final tax.\nWithholding tax is final when deducted in relation to a payment made to a non-resident person with no permanent establishment in Kenya\nWith regard to payments to resident persons, withholding tax is a final tax when it relates to winnings, qualifying interest, qualifying dividend and pensions.\nIn every other case, withholding tax is not a final tax. The taxpayer (payee) is required to declare their income(s) and the withholding tax details when filing their annual tax returns and to pay any balance of tax due."
+            ]
+        },
+        {
+            "tag": "employee_tax_regime",
+            "patterns": [
+                "Can an employer choose to either pay their staff using the withholding tax or PAYE regime?"
+            ],
+            "responses": [
+                "Employees are subject to PAYE taxes. The rates applicable are the individual tax (graduated scale) rates and the employer may take into account allowable deductions (such as mortgage interest) and reliefs (such as personal relief and insurance relief) when computing the PAYE."
+            ]
+        },
+        {
+            "tag": "withholding_tax_rates",
+            "patterns": [
+                "What are the withholding tax rates?"
+            ],
+            "responses": [
+                "Huge table"
+            ]
+        },
+        {
+            "tag": "vat_obligation_requirements",
+            "patterns": [
+                "What does a taxpayer require to apply for addition of VAT obligation?"
+            ],
+            "responses": [
+                "KRA has restricted the addition of VAT obligation and set the following conditions and mandatory documentary requirements for approval of the same;\n1. Original CR12 for companies and Identity documents for directors or individuals including National Identity cards, passports or Alien Identity Cards;\n2. Business permit from relevant bodies;\n3. Work permits for aliens;\n4. Tax Compliance Certificates for all directors;\n5. Letter of appointment of Tax Representative for non-resident companies and identity documents of directors for companies with non-resident directors;\n6. Contact details including physical address, verified telephone contacts, email addresses, utility meter numbers and documents, office rent agreements;\n7. The website(s) or uniform resource locators (URLs) of the supplier through which business is conducted, where applicable;\n8. Contract agreements and/or sample invoices;\n A Taxpayer who meets the above requirements can proceed to make an application for addition of VAT obligation."
+            ]
+        },
+        {
+            "tag": "vat_special_table",
+            "patterns": [
+                "What is VAT Special Table?"
+            ],
+            "responses": [
+                "It is a mechanism implemented in iTax to enhance VAT compliance where certain categories of VAT registered taxpayers are restricted from performing certain processes. The following are categories so far on boarded on the special table:\nNil filers and Non-filers – This refers to Taxpayers who have either not filed returns or have consecutively filed NIL returns for a specified period.\n Missing Traders – This refers to taxpayers who are filing and paying VAT but on investigation were found to be involved in VAT fraud relating to 'missing trader' schemes  "
+            ]
+        },
+        {
+            "tag": "vat_income_tax",
+            "patterns": [
+                "As an individual/organization should I pay VAT and income tax as well?"
+            ],
+            "responses": [
+                "Income tax is a compulsory tax obligation whereas, for VAT, you pay for it when you are registered with VAT."
+            ]
+        },
+        {
+            "tag": "vat_special_table_benefits",
+            "patterns": [
+                "What are the benefits of the VAT Special Table?"
+            ],
+            "responses": [
+                "The VAT special table bears the following benefits for traders:\n1. Identify erroneously added VAT obligations or VAT obligations that are no longer required.\n2. Reduces cases of abuse of traders PIN by fraudulent persons\n3. Assist traders to conduct business with compliant suppliers"
+            ]
+        },
+        {
+            "tag": "vat_special_table_consequences",
+            "patterns": [
+                "What happens when a Taxpayer is on-boarded on the VAT Special Table?"
+            ],
+            "responses": [
+                "1. The taxpayer on-boarded on the VAT Special Table will be restricted from filling VAT returns. Upon attempting to file the return, the system will display the message: \"This PIN is currently under review for VAT compliance irregularities. Please contact nearest KRA office.\"\nNote : Penalties will not be charged for non-filling of VAT returns as a result of on boarding of a taxpayer on the VAT special table.\n2. Traders cannot claim input tax from taxpayers' on boarded on the special table. Upon upload of an original or amended VAT return that contains the PIN of a taxpayer who is in the special table, the entry will be rejected by the system and the following message displayed: \"This PIN is not liable to input tax deduction\".\nThe affected taxpayers will be required to contact their Tax Service Office for guidance on removal from the VAT Special Table."
+            ]
+        },
+        {
+            "tag": "vat_calculation",
+            "patterns": [
+                "How do I calculate VAT"
+            ],
+            "responses": [
+                "VAT operates on an Input - Output Principle. A registered person should maintain a record of his sales and purchases for a tax period.\nInput tax refers to VAT charged on purchases of taxable purchases and expenses for business purposes.\nOutput tax refers to the VAT charged on the sales of taxable goods or services.\nTax payable is the difference between the Output tax and the Input tax.\nOutput Tax - Input Tax = VAT Payable\n If positive, tax due is payable on or before the 20th of the following month."
+            ]
+        },
+        {
+            "tag": "withholding_tax_exemptions",
+            "patterns": [
+                "What is exempt from Withholding Tax?"
+            ],
+            "responses": [
+                "- Dividends received by a company resident in Kenya from a local subsidiary or associated company in which it controls (directly or indirectly) 12.5% or more of the voting power.\n- Marketing commissions and residue audit fees paid to foreign agents in respect of export of flowers, fruits and vegetables.\n- Interest payments to banks and insurance companies.\n- Payments made to tax exempt bodies.\n- Local management and professional fees whose aggregate is below Ksh 24,000 in a month.\n- Air travel commissions paid by local air operators to overseas agents."
+            ]
+        },
+        {
+            "tag": "turnover_tax",
+            "patterns": [
+                "What is Turnover Tax (TOT)?",
+                "What is the effective date of TOT?",
+                "What is the rate of TOT and the due date for filing and paying?",
+                "Does the levying of Turnover Tax and Presumptive Tax amount to double taxation?",
+                "Are there any exemptions under Turnover Tax?",
+                "Can a taxpayer choose not to be subject to Turnover Tax?",
+                "Is Turnover Tax a final tax?",
+                "What is the penalty for late filing and payment of Turnover Tax?",
+                "What are the benefits of Turnover Tax?"
+            ],
+            "responses": [
+                "Turnover Tax (TOT) is a tax charged on gross sales of a business as per Sec.12 (c) of the Income Tax Act. The tax is payable by resident persons whose gross turnover is more than Ksh 1,000,000 but less than Ksh 50,000,000 in any given year.",
+                "1st January 2020",
+                "Turnover Tax is charged at the rate of 1% on gross sales. The due date for filing and paying TOT is on the 20th day of the following month.",
+                "No. Presumptive tax is an advance tax that shall be deducted from Turnover Tax payable in the subsequent month(s).\nHowever, Presumptive Tax was repealed(wef 25.04.2020).",
+                "Income exempt from TOT include;\n- Persons with business income below Ksh 1,000,000 and above Ksh. 50,000,000\nEmployment income,\nRental income,\nManagement and professional services.\nAny income subject to final withholding tax",
+                "Taxpayers who are eligible for Turnover Tax may opt to be under the provisions of this tax by writing to the Commissioner of Domestic Taxes. However this is subject to approval.",
+                "Yes. Persons who declare and pay Turnover Tax will not be required to file annual income tax returns.",
+                "- TOT late filing payment is Kshs. 1,000 per month (wef 25.04.2020)\n- Late payment penalty is 5% of the tax due.\n- Interest on unpaid tax is 1% of the principal tax due.",
+                "1. Reduced expenses; Taxpayers are only required to keep a daily gross sales record, there is no requirement to invest in computers and electronic tax registers\n2. Simplified filing and payment processes including payment through mobile phones.\n3. Reduced time for filing and paying taxes.\n4. The tax rate of 1% is lower relative to other rates of tax on income.\n5. Turnover Tax is a final tax and therefore a person is not required to file the annual income tax return."
+            ]
+        },
+        {
+            "tag": "capital_gains_tax",
+            "patterns": [
+                "What is Capital Gains Tax?",
+                "What is the rate for Capital Gains Tax?",
+                "When is CGT payable?",
+                "Is Capital gains tax final tax?",
+                "Who pays Capital Gains Tax?",
+                "Is Capital Gains Tax levied on non-resident?",
+                "What are some of the exemptions and exclusions?",
+                "What is the method of computing Capital Gains Tax?",
+                "How does one pay for Capital Gains Tax?"
+            ],
+            "responses": [
+                "Capital Gain Tax (CGT) is tax levied on gains made from the transfer of property situated in Kenya whether or not the property was acquired before 1st January 2015.",
+                "The CGT rate was increased from 5% of the net gain to 15% of the net gain, effective 1st January 2023.",
+                "The due date (referred to as Tax Point) for CGT is upon registration of the transfer  instrument in favor of the transferee",
+                "Yes. Capital gains tax is a final tax and is not subject to further taxation.",
+                "Capital Gains Tax is payable by the person who has transferred property (seller). CGT is charged at the point of transfer of property. This is upon registration of the transfer instrument in favour of the transferee indicating transfer of interest in the property from the seller to the purchaser.",
+                "Yes. If the gain is derived from sale of property situated in Kenya then capital gains tax is payable. Unless there is double Tax Agreements guide on certain circumstances."
+            ]
+        },
+        {
+            "tag": "withholding_tax_exemptions",
+            "patterns": [
+                "What is exempt from Withholding Tax?",
+                "Are there any exemptions for Withholding Tax?",
+                "What transactions are not subject to Withholding Tax?"
+            ],
+            "responses": [
+                "The following are exempt from Withholding Tax:\n- Dividends received by a company resident in Kenya from a local subsidiary or associated company in which it controls (directly or indirectly) 12.5% or more of the voting power.\n- Marketing commissions and residue audit fees paid to foreign agents in respect of export of flowers, fruits and vegetables.\n- Interest payments to banks and insurance companies.\n- Payments made to tax exempt bodies.\n- Local management and professional fees whose aggregate is below Ksh 24,000 in a month.\n- Air travel commissions paid by local air operators to overseas agents."
+            ]
+        },
+        {
+            "tag": "withholding_income_tax",
+            "patterns": [
+                "What is Withholding Income Tax?",
+                "What type of transactions does Withholding Income Tax apply to?",
+                "Can you explain Withholding Income Tax and its applications?"
+            ],
+            "responses": [
+                "Withholding Income Tax is tax withheld at source. A person making certain payments deducts tax, at the applicable rate, and remits the tax to the Commissioner on behalf of the recipient. Examples of payments subject to withholding tax include, among others: \n- Management, professional or training fees\n- Consultancy fees, Legal fees, Audit fees\n- Contractual fees\n- Winnings\n- Appearance at or performance to entertain\n- Royalties\n- Interest and deemed interest\n- Dividends"
+            ]
+        },
+        {
+            "tag": "withholding_tax_vs_paye",
+            "patterns": [
+                "Can an employer choose between withholding tax and PAYE for staff payments?",
+                "Is there a choice between withholding tax and PAYE for employee compensation?",
+                "How does withholding tax compare to PAYE for employee payments?"
+            ],
+            "responses": [
+                "Employees are subject to PAYE taxes. The rates applicable are the individual tax (graduated scale) rates and the employer may take into account allowable deductions (such as mortgage interest) and reliefs (such as personal relief and insurance relief) when computing the PAYE."
+            ]
+        },
+        {
+            "tag": "turnover_tax",
+            "patterns": [
+                "What is Turnover Tax (TOT)?",
+                "Can you explain Turnover Tax?",
+                "What does TOT stand for in taxation?"
+            ],
+            "responses": [
+                "Turnover Tax (TOT) is a tax charged on gross sales of a business as per Sec.12 (c) of the Income Tax Act. The tax is payable by resident persons whose gross turnover is more than Ksh 1,000,000 but less than Ksh 50,000,000 in any given year."
+            ]
+        },
+        {
+            "tag": "tot_effective_date",
+            "patterns": [
+                "What is the effective date of TOT?",
+                "When did Turnover Tax come into effect?",
+                "From what date is Turnover Tax applicable?"
+            ],
+            "responses": [
+                "1st January 2020"
+            ]
+        },
+        {
+            "tag": "tot_rate_and_due_date",
+            "patterns": [
+                "What is the rate of TOT and the due date for filing and paying?",
+                "When is Turnover Tax due and at what rate?",
+                "What's the percentage for Turnover Tax and when should it be paid?"
+            ],
+            "responses": [
+                "Turnover Tax is charged at the rate of 1% on gross sales. The due date for filing and paying TOT is on the 20th day of the following month."
+            ]
+        },
+        {
+            "tag": "tot_vs_presumptive_tax",
+            "patterns": [
+                "Does the levying of Turnover Tax and Presumptive Tax amount to double taxation?",
+                "Is there double taxation with Turnover Tax and Presumptive Tax?",
+                "How do Turnover Tax and Presumptive Tax relate to each other?"
+            ],
+            "responses": [
+                "No. Presumptive tax is an advance tax that shall be deducted from Turnover Tax payable in the subsequent month(s).\nHowever, Presumptive Tax was repealed(wef 25.04.2020)."
+            ]
+        },
+        {
+            "tag": "tot_exemptions",
+            "patterns": [
+                "Are there any exemptions under Turnover Tax?",
+                "What income is exempt from Turnover Tax?",
+                "Who is not required to pay Turnover Tax?"
+            ],
+            "responses": [
+                "Income exempt from TOT include;\n- Persons with business income below Ksh 1,000,000 and above Ksh. 50,000,000\nEmployment income,\nRental income,\nManagement and professional services.\nAny income subject to final withholding tax"
+            ]
+        },
+        {
+            "tag": "tot_opt_out",
+            "patterns": [
+                "Can a taxpayer choose not to be subject to Turnover Tax?",
+                "Is it possible to opt out of Turnover Tax?",
+                "How can a taxpayer avoid being subject to Turnover Tax?"
+            ],
+            "responses": [
+                "Taxpayers who are eligible for Turnover Tax may opt to be under the provisions of this tax by writing to the Commissioner of Domestic Taxes. However this is subject to approval."
+            ]
+        },
+        {
+            "tag": "tot_final_tax",
+            "patterns": [
+                "Is Turnover Tax a final tax?",
+                "Do I need to file annual returns if I pay Turnover Tax?",
+                "Is TOT considered a final tax payment?"
+            ],
+            "responses": [
+                "Yes. Persons who declare and pay Turnover Tax will not be required to file annual income tax returns."
+            ]
+        },
+        {
+            "tag": "tot_penalties",
+            "patterns": [
+                "What is the penalty for late filing and payment of Turnover Tax?",
+                "What are the consequences of late TOT payment?",
+                "Are there fines for delayed Turnover Tax filing?"
+            ],
+            "responses": [
+                "- TOT late filing payment is Kshs. 1,000 per month (wef 25.04.2020)\n- Late payment penalty is 5% of the tax due.\n- Interest on unpaid tax is 1% of the principal tax due."
+            ]
+        },
+        {
+            "tag": "tot_benefits",
+            "patterns": [
+                "What are the benefits of Turnover Tax?",
+                "Why should I opt for Turnover Tax?",
+                "What advantages does TOT offer?"
+            ],
+            "responses": [
+                "1. Reduced expenses; Taxpayers are only required to keep a daily gross sales record, there is no requirement to invest in computers and electronic tax registers\n2. Simplified filing and payment processes including payment through mobile phones.\n3. Reduced time for filing and paying taxes.\n4. The tax rate of 1% is lower relative to other rates of tax on income.\n5. Turnover Tax is a final tax and therefore a person is not required to file the annual income tax return."
+            ]
+        },
+        {
+            "tag": "capital_gains_tax",
+            "patterns": [
+                "What is Capital Gains Tax?",
+                "Can you explain CGT?",
+                "What does Capital Gains Tax mean?"
+            ],
+            "responses": [
+                "Capital Gain Tax (CGT) is tax levied on gains made from the transfer of property situated in Kenya whether or not the property was acquired before 1st January 2015."
+            ]
+        },
+        {
+            "tag": "cgt_rate",
+            "patterns": [
+                "What is the rate for Capital Gains Tax?",
+                "How much is CGT in percentage?",
+                "What percentage is charged for Capital Gains Tax?"
+            ],
+            "responses": [
+                "The CGT rate was increased from 5% of the net gain to 15% of the net gain, effective 1st January 2023."
+            ]
+        },
+        {
+            "tag": "cgt_due_date",
+            "patterns": [
+                "When is CGT payable?",
+                "What is the due date for Capital Gains Tax?",
+                "By when should I pay Capital Gains Tax?"
+            ],
+            "responses": [
+                "The due date (referred to as Tax Point) for CGT is upon registration of the transfer  instrument in favor of the transferee"
+            ]
+        },
+        {
+            "tag": "cgt_final_tax",
+            "patterns": [
+                "Is Capital gains tax final tax?",
+                "Do I need to pay additional tax after CGT?",
+                "Is CGT considered a final tax payment?"
+            ],
+            "responses": [
+                "Yes. Capital gains tax is a final tax and is not subject to further taxation."
+            ]
+        },
+        {
+            "tag": "cgt_payer",
+            "patterns": [
+                "Who pays Capital Gains Tax?",
+                "Who is responsible for paying CGT?",
+                "On whom does the liability of Capital Gains Tax fall?"
+            ],
+            "responses": [
+                "Capital Gains Tax is payable by the person who has transferred property (seller). CGT is charged at the point of transfer of property. This is upon registration of the transfer instrument in favour of the transferee indicating transfer of interest in the property from the seller to the purchaser."
+            ]
+        },
+        {
+            "tag": "cgt_non_resident",
+            "patterns": [
+                "Is Capital Gains Tax levied on non-resident?",
+                "Do non-residents have to pay CGT?",
+                "Are foreigners subject to Capital Gains Tax in Kenya?"
+            ],
+            "responses": [
+                "Yes. If the gain is derived from sale of property situated in Kenya then capital gains tax is payable. Unless there is double Tax Agreements guide on certain circumstances."
+            ]
+        },
+        {
+            "tag": "tax_refund",
+            "patterns": [
+                "What is a tax Refund?",
+                "Can you explain what a tax refund is?",
+                "What does tax refund mean?"
+            ],
+            "responses": [
+                "It is a reimbursement of excess tax paid in a given period."
+            ]
+        },
+        {
+            "tag": "income_tax_refund_eligibility",
+            "patterns": [
+                "Who is Eligible for Individual Income Tax Refunds?",
+                "What are the categories for Income Tax refund eligibility?",
+                "How do I know if I'm eligible for an Income Tax refund?"
+            ],
+            "responses": [
+                "Taxpayers eligible for Income Tax refunds fall under the following categories:\n- *Category1:* Life or Education Insurance policy holders. \n - Required documents: Insurance policy certificate and Tax deduction card (Form P9)\n- *Category2:* Home owners with Mortgage from the following financial institutions Banks, Insurance companies, Building Societies, National Housing Corporation. \n - Required documents: Mortgage certificate and Tax deduction card (Form P9)\n- *Category3:* Persons with Disability holding an exemption certificate. \n - Required documents: Exemption certificate and Tax deduction card (Form P9)\n- *Category4:* Taxpayers who have paid tax deducted at source (Withholding Tax) in excess of final liability \n - Required documents: Withholding Tax Certificate and Tax deduction card (Form P9) where applicable.\n- *Category5:* Taxpayers who pays tax in error. \n - Required documents: Relevant documents to prove tax was paid in error.\nSupporting documents should be uploaded in the system and any requested additional documents scanned and sent via email to the officer processing the claim\n> Note: Employees can supply relevant documents to the employer to be granted insurance relief and mortgage deduction through the payroll. It's only those cases that have not enjoyed this direct credit through their employer that may apply for refund."
+            ]
+        },
+        {
+            "tag": "income_tax_refund_application",
+            "patterns": [
+                "How do I apply for an income tax refund?",
+                "What's the process for applying for an income tax refund?",
+                "Can you guide me on how to apply for an income tax refund?"
+            ],
+            "responses": [
+                "A claim for refund must be made within five (5) years of the date the tax was paid. A decision on the application shall be communicated to the taxpayer within 90 days of receiving the application.\nThe claim must be filed online via iTax as follows: -\n\ti) Log on to https: //itax.kra.go.ke/KRA-Portal/\n\tii) Click the Refund tab. From the drop down menu, select Income Tax.\n\tiii) Click Claim Details Tab and fill the fields available. All fields with * are mandatory.\n\tiv) Attach any supporting documents.\n\tv) Click submit tab.\n\tvi) The claim is automatically allocated to a refunds officer and an Acknowledgement Number generated and sent to the taxpayers through email. This number is used to track the claim.\n\tvii) The taxpayer may track the status of the claim by selecting \"Track status of Application\" under \"Useful Links\".\n> Note: It is important to consult the general ledger in your i-Tax profile to ensure that your employer has accounted for all PAYE deducted from your salary before you lodge your refund claim. Taxpayers are advised to confirm the availability of credits giving rise to a possible refunds before making their application."
+            ]
+        },
+        {
+            "tag": "refund_documents",
+            "patterns": [
+                "Which documents will I require to apply for my refund?",
+                "What documents are needed for a tax refund application?",
+                "What paperwork do I need to submit for a tax refund?"
+            ],
+            "responses": [
+                "- Tax deduction card (Form P.9) for claims relating to excess PAYE deductions\n- Insurance policy certificates for claims relating to insurance relief\n- Mortgage certificate from a financial institution for claims relating to interest on mortgage or home ownership plan\n- Withholding tax certificates for claims relating to tax deducted at source."
+            ]
+        },
+        {
+            "tag": "refund_application_timing",
+            "patterns": [
+                "When should I apply for a tax refund?",
+                "What's the best time to apply for a tax refund?",
+                "Is there a specific time to submit a tax refund application?"
+            ],
+            "responses": [
+                "Immediately after filing a tax return for the respective year."
+            ]
+        },
+        {
+            "tag": "refund_approval_notification",
+            "patterns": [
+                "How do I know if my refund is approved?",
+                "How will I be notified about my refund approval?",
+                "What's the process of being informed about refund approval?"
+            ],
+            "responses": [
+                "1. Upon approval of a claim, the taxpayer is automatically notified via email.\n2. When the funds are disbursed by Finance, the taxpayer is automatically notified through email.\n3. Where claim is supported in all aspects, it is expected be paid within two (2) years from the date the application was lodged. Any amount remaining unpaid after two years will attract an interest of 1% per month or part thereof.\nPlease note that in line with Section 47(4) of the Tax Procedures Act, the refund shall be applied in the following order:\n1. Payment of any other tax owing, by the taxpayer under the same tax law,\n2. Payment of any tax owing by the taxpayer under any other tax law.\n3. Any remainder be refunded to the taxpayer"
+            ]
+        },
+        {
+            "tag": "refund_processing_time",
+            "patterns": [
+                "If I apply for a refund how long will it take to receive the refund?",
+                "What's the processing time for a tax refund?",
+                "How long does it take to get a tax refund after applying?"
+            ],
+            "responses": [
+                "Where a claim is fully supported in all aspects, it is processed within 90 days from the time of lodgment."
+            ]
+        },
+        {
+            "tag": "unsuccessful_refund_application",
+            "patterns": [
+                "How do I know if my refund application is unsuccessful?",
+                "What happens if my refund claim is rejected?"
+            ],
+            "responses": [
+                "Upon rejection of a claim, the taxpayer automatically receives a rejection order via email."
+            ]
+        },
+        {
+            "tag": "refund_application_timing",
+            "patterns": [
+                "When should I apply for a tax refund?",
+                "What's the best time to apply for a tax refund?",
+                "Is there a specific time to submit a tax refund application?"
+            ],
+            "responses": [
+                "Immediately after filing a tax return for the respective year."
+            ]
+        },
+        {
+            "tag": "refund_approval_notification",
+            "patterns": [
+                "How do I know if my refund is approved?",
+                "How will I be notified about my refund approval?",
+                "What's the process of being informed about refund approval?"
+            ],
+            "responses": [
+                "1. Upon approval of a claim, the taxpayer is automatically notified via email.\n2. When the funds are disbursed by Finance, the taxpayer is automatically notified through email.\n3. Where claim is supported in all aspects, it is expected be paid within two (2) years from the date the application was lodged. Any amount remaining unpaid after two years will attract an interest of 1% per month or part thereof.\nPlease note that in line with Section 47(4) of the Tax Procedures Act, the refund shall be applied in the following order:\n1. Payment of any other tax owing, by the taxpayer under the same tax law,\n2. Payment of any tax owing by the taxpayer under any other tax law.\n3. Any remainder be refunded to the taxpayer"
+            ]
+        },
+        {
+            "tag": "refund_processing_time",
+            "patterns": [
+                "If I apply for a refund how long will it take to receive the refund?",
+                "What's the processing time for a tax refund?",
+                "How long does it take to get a tax refund after applying?"
+            ],
+            "responses": [
+                "Where a claim is fully supported in all aspects, it is processed within 90 days from the time of lodgment."
+            ]
+        },
+        {
+            "tag": "unsuccessful_refund_application",
+            "patterns": [
+                "How do I know if my refund application is unsuccessful?",
+                "What happens if my refund claim is rejected?"
+            ],
+            "responses": [
+                "Upon rejection of a claim, the taxpayer automatically receives a rejection order via email."
+            ]
+        },
+        {
+            "tag": "tax_refund_applicable_laws",
+            "patterns": [
+                "Tax Refunds are Applicable under which tax laws",
+                "What laws govern tax refunds?",
+                "Legal basis for tax refunds"
+            ],
+            "responses": [
+                "*Applicable law*\n\ti) Income Tax Act Cap 470 (ITA) - Sections 15(3)(b),29,30,31,106 and the Third and Fourth Schedule.\n\tii) Tax Procedures Act, 2015 (TPA) - Sections 47, 48 & 88, 97(b), 104(3), 108\n\tiii) Legal Notice No. 36 of 2010 – The Persons with Disabilities (Income Tax Deductions and Exemptions) Order, 2010"
+            ]
+        },
+        {
+            "tag": "erroneous_refund",
+            "patterns": [
+                "What happens in an instance where a taxpayer is erroneously refunded?",
+                "Procedure for handling incorrect tax refunds",
+                "Consequences of receiving wrong tax refund"
+            ],
+            "responses": [
+                "1. Where the Commissioner refunds a person in error, that person shall be required to repay the amount erroneously refunded by the date set in the letter of demand.\n2. If the amount of repaid by the due date in the demand letter, it shall attract a late payment interest."
+            ]
+        },
+        {
+            "tag": "fraudulent_refund_claim_penalties",
+            "patterns": [
+                "What are the Administrative Penalties & Offences for Making Fraudulent Claims?",
+                "Consequences of false tax refund claims",
+                "Penalties for fraudulent tax refund applications"
+            ],
+            "responses": [
+                "According to Section 88, 97(b) & 104(3) of the Tax Procedures Act,A person who makes a fraudulent claim shall be liable to either a penalty or prosecution as follows: \n- A person who fraudulently makes a refund claim shall be liable to a penalty of an amount equal to two times the amount of the claim.\n- A person who knowingly claims a refund which he/she is not entitled to commits an offence and is liable, upon conviction, to a fine not exceeding ten million shillings and/or imprisonment for a term not more than ten years."
+            ]
+        },
+        {
+            "tag": "tax_refund_benefits",
+            "patterns": [
+                "What are the benefits of tax refunds?",
+                "Advantages of tax refund system",
+                "How do tax refunds help taxpayers and the economy?"
+            ],
+            "responses": [
+                "- Tax refunds resulting from zero rating of exportation of goods allow exporters to be more competitive in the foreign market and allow them to plough it back into the business.\n- Ensure affordability of certain goods and services deemed as essentials e.g. zero rating of bread, milk, flour.\n- To ensure equity where tax is deducted in error"
+            ]
+        },
+        {
+            "tag": "types_of_tax_refunds",
+            "patterns": [
+                "What are the types of tax refunds?",
+                "Different categories of tax refunds",
+                "Explain the various tax refund types"
+            ],
+            "responses": [
+                "*Income Tax Refunds*\nThis refund will arise from tax overpayments by both individual and corporate taxpayers.The following circumstances may lead to an income tax refund:\n- Over deduction of tax(PAYE) by the employer\n- Tax incentives on mortgage interest relief, insurance premium relief, and annual tax relief\n- Exemption on account of disability.\n- Overpayment of Instalment Taxes \n- Withholding Tax\n- Advance Tax credits\n> NB: A claim for an Income Tax refund must be made within five (5) years from the date the tax was paid.\n*VAT Refunds*\nVAT refunds occur as a result of overpayment of taxes as a result of:\n- Excess credits as a result of zero-rated supplies\n- Excess credits arising out of withholding VAT\n- Bad debts- after a period of three years but not more than 4 years from the date of that supply (where a registered person has made a supply and has accounted for and paid tax on that supply and has not received any payment from the person liable to pay the tax)\n*Excise Tax Refunds*\nOccurs when a person dealing with excisable goods manufactured in or imported into Kenya has paid excise duty. The Commissioner shall, on application by the person, refund the excise duty paid if satisfied that.\n- Before being consumed or used in Kenya\n- The goods have been damaged or stolen during the voyage or transportation to Kenya\n- The buyer has returned the goods in accordance with the contract of sale.\n- The excise duty paid in respect of spirits or illuminating kerosene that have subsequently been used by a licensed or registered manufacturer to manufacture un-excisable goods."
+            ]
+        },
+        {
+            "tag": "refund_application_process",
+            "patterns": [
+                "How can one Apply for a Refund?",
+                "Steps to apply for a tax refund",
+                "Process of submitting a tax refund application"
+            ],
+            "responses": [
+                " 1. Logon to itax.kra.go.ke by entering your KRA PIN and Password\n2. On the iTax menu, select the tax obligation under the refunds menu\n3. Confirm taxpayer details and click next\n4. Fill in the taxpayer's bank account details and click next\n5. Select your refund type, the claim reason, the description of the reason for the claim, the amount, upload supporting documents then submit."
+            ]
+        },
+        {
+            "tag": "refund_application_tips",
+            "patterns": [
+                "Tips For Applying For Refunds",
+                "Best practices when applying for tax refunds",
+                "Advice for successful tax refund applications"
+            ],
+            "responses": [
+                "- Apply for claims via iTax within the stipulated period.\n- All claims must have valid debt status reports before refund processing.\n- All first-time claimants will be subjected to a pre-payment audit"
+            ]
+        },
+        {
+            "tag": "tax_refund_offences",
+            "patterns": [
+                "Tax Refund Offences",
+                "Penalties for tax refund violations",
+                "Consequences of improper tax refund claims"
+            ],
+            "responses": [
+                "Fraudulent/false claim of refund will attract a penalty of an amount equal to two times the amount of the claim."
+            ]
+        }
+    ]
+}
